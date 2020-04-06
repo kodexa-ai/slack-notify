@@ -63,9 +63,7 @@ async function run() {
 
     const data = JSON.stringify({
       channel: channel,
-     
-      asUser: true,
-      text: `Github action (${process.env.GITHUB_WORKFLOW}) triggered\n`,
+      as_user: true,
       attachments: [
         // {
         //   "title": `${process.env.GITHUB_REPOSITORY}`,
