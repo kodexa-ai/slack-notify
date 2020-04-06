@@ -50,12 +50,12 @@ async function run() {
     const channel = core.getInput('channel', {
       required: true
     });
-    const icon_url = core.getInput('icon_url', {
-      required: true
-    });
-    const username = core.getInput('username', {
-      required: true
-    });
+    // const icon_url = core.getInput('icon_url', {
+    //   required: true
+    // });
+    // const username = core.getInput('username', {
+    //   required: true
+    // });
 
     // TODO put back?
     // icon_url: icon_url,
