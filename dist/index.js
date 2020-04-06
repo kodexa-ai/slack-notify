@@ -138,9 +138,9 @@ async function run() {
     })
     
     const options = {
-      hostname: 'flaviocopes.com',
+      hostname: 'slack.com',
       port: 443,
-      path: '/todos',
+      path: '/api/chat.postMessage',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
