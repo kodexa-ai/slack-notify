@@ -2,4 +2,4 @@
 
 Based very heavily on https://github.com/cemkiy/action-slacker/, but switched to remove deps and use a bot token.
 
-Mainly just used internally.
+Used internally at Kodexa.
